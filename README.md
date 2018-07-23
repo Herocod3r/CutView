@@ -15,7 +15,7 @@ a diagonal view for xamarin forms based on NControl
 ## Samples
 The sample you can find here 
 https://github.com/Herocod3r/CutView/blob/master/Test/App/App/MainPage.xaml
-
+![sreenshot](https://image.ibb.co/jrA5PJ/Simulator_Screen_Shot_i_Phone_7_2018_07_23_at_05_55_44.png)
 
 ```xml
 
