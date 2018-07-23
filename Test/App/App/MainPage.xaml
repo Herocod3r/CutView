@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App"
+             xmlns:ctrl="clr-namespace:Plugin;assembly=CutView"
+             x:Class="App.MainPage">
+
+    <StackLayout Padding="50" Spacing="30">
+
+        <Grid VerticalOptions="Start" BackgroundColor="LightGray" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <RelativeLayout Grid.Column="0" >
+                <ctrl:CutView Inset="20" FillColor="SkyBlue" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" />
+                <StackLayout   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"   Padding="20,15,15,15">
+                    <Label TextColor="White" FontSize="14" HorizontalOptions="Center" Text="Hello" />
+                </StackLayout>
+            </RelativeLayout>
+
+            <Label Grid.Column="1"  Margin="10,0,0,0" FontSize="14" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="Black" Text="World" />
+
+
+
+
+        </Grid>
+
+
+
+        <Grid VerticalOptions="Start" BackgroundColor="LightGray" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="1.3*" />
+            </Grid.ColumnDefinitions>
+
+            <RelativeLayout Grid.Column="1" >
+                <ctrl:CutView IsReverse="True" Inset="20" FillColor="SkyBlue" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" />
+                <StackLayout   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"   Padding="20,15,15,15">
+                    <Label TextColor="White" FontSize="14" HorizontalOptions="Center" Text="World" />
+                </StackLayout>
+            </RelativeLayout>
+
+            <Label Grid.Column="0"  Margin="10,0,0,0" FontSize="14" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="Black" Text="Hello" />
+
+
+
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>

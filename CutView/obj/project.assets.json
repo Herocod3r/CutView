@@ -472,28 +472,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/jaytee/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\jaytee\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/Users/jaytee/Projects/Herocod3r/CutView/CutView/CutView.csproj",
+      "projectUniqueName": "Z:\\Users\\jaytee\\Projects\\Herocod3r\\CutView\\CutView\\CutView.csproj",
       "projectName": "CutView",
-      "projectPath": "/Users/jaytee/Projects/Herocod3r/CutView/CutView/CutView.csproj",
-      "packagesPath": "/Users/jaytee/.nuget/packages/",
-      "outputPath": "/Users/jaytee/Projects/Herocod3r/CutView/CutView/obj",
+      "projectPath": "Z:\\Users\\jaytee\\Projects\\Herocod3r\\CutView\\CutView\\CutView.csproj",
+      "packagesPath": "C:\\Users\\jaytee\\.nuget\\packages\\",
+      "outputPath": "Z:\\Users\\jaytee\\Projects\\Herocod3r\\CutView\\CutView\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jaytee/.config/NuGet/NuGet.Config"
+        "C:\\Users\\jaytee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -510,19 +515,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "NControl": {
+            "target": "Package",
+            "version": "[0.9.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.1",
+            "version": "[2.0.1, )",
             "autoReferenced": true
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "2.5.0.77107"
-          },
-          "NControl": {
-            "target": "Package",
-            "version": "0.9.1"
+            "version": "[2.5.0.77107, )"
           }
         },
         "imports": [

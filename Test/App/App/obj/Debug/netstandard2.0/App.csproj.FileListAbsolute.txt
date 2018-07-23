@@ -1,0 +1,13 @@
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.csproj.CoreCompileInputs.cache
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.App.xaml.g.cs
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.MainPage.xaml.g.cs
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.AssemblyInfoInputs.cache
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.AssemblyInfo.cs
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\bin\Debug\netstandard2.0\App.deps.json
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\bin\Debug\netstandard2.0\App.dll
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\bin\Debug\netstandard2.0\App.pdb
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.dll
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.pdb
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\bin\Debug\netstandard2.0\CutView.dll
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\bin\Debug\netstandard2.0\CutView.pdb
+Z:\Users\jaytee\Projects\Herocod3r\CutView\Test\App\App\obj\Debug\netstandard2.0\App.csprojResolveAssemblyReference.cache

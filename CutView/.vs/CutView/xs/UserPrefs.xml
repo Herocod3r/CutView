@@ -1,31 +1,16 @@
-﻿<Properties StartupConfiguration="{358D10DC-8431-404F-A909-A3B8513982DE}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Test/CutView.Test/MainPage.xaml">
+﻿<Properties StartupConfiguration="{F9D5E593-96FF-4F95-9E00-A6586D6483DC}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CutView.cs">
     <Files>
       <File FileName="CutView.cs" Line="5" Column="1" />
-      <File FileName="../Test/CutView.Test/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="../Test/Test/MainPage.xaml" Line="7" Column="15" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CutView" expanded="True">
-            <Node name="Test" expanded="True">
-              <Node name="CutView.Test" expanded="True" />
-              <Node name="CutView.Test.Android" expanded="True" selected="True" />
-              <Node name="CutView.Test.iOS" expanded="True" />
-            </Node>
-            <Node name="CutView" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Test.CutView.Test.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Test.CutView.Test.iOS FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test.Test.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Test.Test.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Test.CutView.Test FirstBuild="True" />
 </Properties>
